@@ -33,10 +33,16 @@ bluenviron/mediamtx
 -e MTX_WEBRTCADDITIONALHOSTS=192.168.x.x \ aqui o ip da maquina server
 no meu caso 192.168.1.67
 
+### Ajustes
 http://192.168.1.67:8889/mya/whip
-transmitir para o server o mya eu que coloquei voce pode botar outro/
+
+PAra transmitir para o server o mya eu que coloquei voce pode botar outro/
 porem o whip nao especifico olha agora
 
-estou ajustando com objetivo de abrir direto como fosse um programa
+estou ajustando com objetivo de abrir direto como fosse um programa.
+
+Basta configurar o obs studio para transmissao selecionar "Configuracoes" depois
+"transmissao" e escolher em Servico "WHIP" e passa o caminho do servidor docker ou
+seja o ip seguido da escoha exemplo http://xxx.xxx.xxx/mya/whip
 
 vou parar por aqui posso botar outras paradas
